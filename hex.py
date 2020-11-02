@@ -32,6 +32,6 @@ if (mode=="numOut"):
         #int value of corresponding key
         #b=ord(expanded_key([x]))
         b=(ord(expanded_key[x]))
-        String += hex(a^b).lstrip("0x").rstrip("L")+ " "
+        String += hex(a^b)[2:]+ " "
 
 print(String)
