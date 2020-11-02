@@ -9,5 +9,5 @@ $(info ARGS should be human/numOut, the key, the message)
 
 
 run:
-	@python hex.py $(ARGS)
+	@python3 hex.py $(ARGS)
 
